@@ -177,8 +177,4 @@ Response:
 - Provide bulk import/export workflows.
 - Create a simple web console for non-technical users.
 
-## Interview Talking Points
-- **What it does:** Generates branded short links, tracks clicks, and retires stale ones automatically.
-- **Why serverless:** Traffic is bursty, so Lambda + DynamoDB provide elastic scale and low idle cost.
-- **What’s improved:** Custom aliases, TTL enforcement, analytics endpoint, JSON logging, scheduled cleanup, config-first design, and SAM-based IaC.
-- **Challenges solved:** Alias collisions via conditional writes, deterministic cleanup via EventBridge batches, and useful logs via a custom JSON formatter.
+
